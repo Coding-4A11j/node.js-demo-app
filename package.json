@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "description": "## 📦 Project Overview This is a simple Node.js app deployed via GitHub Actions using DockerHub. The CI/CD pipeline runs on push to `main` and automates the following: - Install dependencies - Run tests - Build Docker image - Push image to DockerHub",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
